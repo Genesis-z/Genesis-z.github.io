@@ -12,22 +12,16 @@ comments: true
 
 <p>Finally got a central place for gathering some of information that I have learned and came across. Also added the things that I often forget.
 Hope this would be useful.
-
-“Lets learn and share together“
-
-# DISCLAIMER:
-# Information and technical code that we share here is done so in hope that it will be useful.
-# Copy and use at your own risk 
 </p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
+<!-- <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 <h4>Documentation</h4>
 
 <p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
 
 <h4>Questions or bug reports?</h4>
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p> -->
 
 </div>
 
@@ -43,3 +37,10 @@ Hope this would be useful.
 </div>
 </div> -->
 </div>
+
+> Lets learn and share together
+
+## DISCLAIMER:
+
+###### Information and technical code that we share here is done so in hope that it will be useful.
+###### Copy and use at your own risk 

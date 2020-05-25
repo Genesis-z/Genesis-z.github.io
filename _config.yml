@@ -1,10 +1,10 @@
 # Site
-name: "Genysis"
-title: "Genysis"
+name: "Genesis"
+title: "Genesis"
 description: "Let's learn and explore together..."
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo6.png'
 favicon: 'assets/images/logo.png'
-baseurl: /genesis-z.github.io
+baseurl: /mediumish-theme-jekyll
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -18,18 +18,18 @@ authors:
     display_name: Prince
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    web: #
+    twitter: #
+    description: "Author of Genesis, A technical consultant with experience in Information technology and services. Love exploring and developing new innovative and interesting stuffs. Knowledgeable in an assortment of programming languages, scripting languages, operating systems, and applications."
   john:
     name: Jose
     display_name: Jose    
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/batman.jpg'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    email: naveenjose97x@outlook.com
+    web: https://www.linkedin.com/in/naveenkumar-xavier/
+    twitter: https://twitter.com/Naveen25X
+    description: "Software Engineer with brief experience working with C, C++ and Python language. Knowledgable in Linux and Agile methodologies with 2 years of working experience. Passionate towards exploring new stuffs and expanding knowledge. In a pursuit, learning Networking and Communications. Blogger and a cyclist."
 
 # Plugins
 plugins:
