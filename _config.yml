@@ -7,7 +7,7 @@ favicon: 'assets/images/logo.png'
 baseurl: /
 # baseurl: /Genesis-z.github.io
 google_analytics: 'UA-167890483-1'
-disqus: 'disqus_7AIU1ObddA'
+disqus: 'Genesis'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
