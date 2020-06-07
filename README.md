@@ -6,7 +6,7 @@ This static blog is made on jekyll and hosted in github. Here we will share our 
 
 Copyright (C) 2020 Genesis, https://genesis-z.github.io/
 
-### Contributions
+### Steps to deploy in local
 
 1. Download or `git clone https://github.com/Genesis-z/Genesis-z.github.io.git`
 2. open your termninal and route to your downloaded folder.
