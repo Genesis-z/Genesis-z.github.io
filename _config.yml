@@ -17,6 +17,7 @@ authors:
   sal:
     name: Prince
     display_name: Prince
+    avatar: 'assets/images/batman.jpg'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: wowthemesnet@gmail.com
     web: https://www.linkedin.com/in/kiran-kumar-a5455b154/
@@ -25,12 +26,12 @@ authors:
   john:
     name: Jose
     display_name: Jose    
-    avatar: 'assets/images/batman.jpg'
+    avatar: 'assets/images/grim.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: naveenjose97x@outlook.com
     web: https://www.linkedin.com/in/naveenkumar-xavier/
     twitter: https://twitter.com/Naveen25X
-    description: "Software Engineer with brief experience working with C, C++ and Python language. Knowledgable in Linux and Agile methodologies with 2 years of working experience. Passionate towards exploring new stuffs and expanding knowledge. In a pursuit, learning Networking and Communications. Blogger and a cyclist."
+    description: "Software Engineer with brief experience working with C, C++ and Python language. Knowledgable in Linux and Agile methodologies with 2 years of working experience. Passionate towards exploring new stuffs and expanding knowledge. In a pursuit, learning Networking and Communications."
 
 # Plugins
 plugins:
@@ -63,7 +64,7 @@ kramdown:
       line_numbers: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "enabled"
+adsense: "disabled"
 adsense-data-ad-client: "ca-pub-9949060398940999"
 adsense-data-ad-slot: ""
 
