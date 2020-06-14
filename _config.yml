@@ -4,8 +4,8 @@ title: "Genesis"
 description: "Let's learn and explore together..."
 logo: 'assets/images/logo6.png'
 favicon: 'assets/images/logo.png'
-# baseurl: /
-baseurl: /Genesis-z.github.io
+baseurl: /
+# baseurl: /Genesis-z.github.io
 google_analytics: 'UA-167890483-1'
 disqus: 'Genesis'
 mailchimp-list: 'https://github.us10.list-manage.com/subscribe/post?u=145fd0db654a848f2210027e9&amp;id=9f918ad6cc'
