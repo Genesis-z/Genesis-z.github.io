@@ -2,7 +2,7 @@
 layout: post
 title:  "Chromium installation in Kali Linux"
 author: sal
-categories: [ kali ]
+categories: [ Kali ]
 image: assets/images/kali-chromium.jpg
 beforetoc: "Step by step process to install chromium browser in kali "
 toc: true

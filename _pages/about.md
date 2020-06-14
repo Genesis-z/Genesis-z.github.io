@@ -8,10 +8,12 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>In this blog posts, we will share the information which we had learned/explored and also our experience. Information shared only for educational purpose.</p>
+<p>In this blog, we share the information which we had learned, explored and also experienced. Also we blog the information that we often forget ;). All Information are shared only for educational purpose.</p>
 
-<p>Finally got a central place for gathering some of information that I have learned and came across. Also added the things that I often forget.
-Hope this would be useful.
+<p>But WHY here whilst there are more advanced blogging platforms?
+Because, we loved Jekyll themes as they are quite smoother to manage once you get used to it. And also because - GITHUB!
+Hope our work here, helps you out in some ways.
+Cheers!
 </p>
 
 <!-- <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
