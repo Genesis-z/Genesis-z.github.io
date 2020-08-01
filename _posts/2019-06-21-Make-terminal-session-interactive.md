@@ -6,7 +6,7 @@ categories: [ Linux, tips & tricks ]
 image: assets/images/terminal.jpg
 beforetoc: "The simple tools to make the terminal scripts more user interactive"
 toc: false
-featured: true
+featured: false
 ---
 
 Sometimes,working with the terminals black & white screen is little boring. Creating new interactive dialog/interactive boxes in our terminal will be little fun and interesting. Here I brought some tools to make the terminal sessions interesting,nteractive dialog boxes in our termial,
