@@ -14,7 +14,7 @@
     
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/main.scss" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
@@ -43,8 +43,8 @@ ga('send', 'pageview');
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
-
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down"> -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mediumnavigation nav-down">
     <div class="container pr-0">
 
     <!-- Begin Logo -->
@@ -92,6 +92,10 @@ ga('send', 'pageview');
                 </li> -->
 
                 {% include search-lunr.html %}
+                <button type="button" class="btn">
+                    <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a>
+                </button>
+                
 
             </ul>
 
@@ -193,6 +197,7 @@ ga('send', 'pageview');
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+<script src="{{ site.baseurl }}/assets/js/mode-switcher.js"></script>
 
 {% if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
