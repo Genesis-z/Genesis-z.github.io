@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Genysis
+title: About Genesis
 permalink: /about
 comments: true
 ---
