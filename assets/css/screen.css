@@ -35,6 +35,7 @@ pre {
 
 .mediumnavigation {
     background: rgba(255, 255, 255, .97);
+    /* background-color: var(--main-background-color); */
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
@@ -193,7 +194,8 @@ section.recent-posts {
 
 .post-top-meta span {
     font-size: 0.9rem;
-    color: rgba(0, 0, 0, .44);
+    /* color: rgba(0, 0, 0, .44); */
+    color: var(--main-text-color);
     display: inline-block;
 }
 
@@ -223,7 +225,8 @@ span.author-meta {
 
 span.post-date,
 span.post-read {
-    color: rgba(0, 0, 0, .44);
+    /* color: rgba(0, 0, 0, .44); */
+    color: var(--main-text-color);
 }
 
 span.post-read-more {
@@ -234,12 +237,14 @@ span.post-read-more {
 }
 
 span.post-read-more a {
-    color: rgba(0, 0, 0, .44);
+    /* color: rgba(0, 0, 0, .44); */
+    color: var(--main-text-color);
 }
 
 span.post-name a,
 span.post-read-more a:hover {
-    color: rgba(0, 0, 0, .8);
+    /* color: rgba(0, 0, 0, .8); */
+    color: var(--main-text-color);
 }
 
 .dot:after {
@@ -328,14 +333,16 @@ span.post-read-more a:hover {
     font-family: Merriweather;
     font-size: 1.1rem;
     line-height: 1.84;
-    color: rgba(0, 0, 0, .8);
+    /* color: rgba(0, 0, 0, .8); */
+    color: var(--main-text-color);
 }
 
 blockquote {
     border-left: 4px solid #00ab6b;
     padding: 0 20px;
     font-style: italic;
-    color: rgba(0, 0, 0, .5);
+    /* color: rgba(0, 0, 0, .5); */
+    color: var(--main-text-color);
 }
 
 .article-post p,
@@ -469,7 +476,8 @@ blockquote {
 
 .share,
 .share a {
-    color: rgba(0, 0, 0, .44);
+    /* color: rgba(0, 0, 0, .44); */
+    color: var(--main-text-color);
     fill: rgba(0, 0, 0, .44);
 }
 
@@ -497,7 +505,8 @@ ul.tags li {
 
 ul.tags li a {
     background: rgba(0, 0, 0, .05);
-    color: rgba(0, 0, 0, .6);
+    /* color: rgba(0, 0, 0, .6); */
+    color: var(--main-text-color);
     border-radius: 3px;
     padding: 5px 10px;
 }
@@ -592,23 +601,28 @@ ul.tags li a:hover {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    /* color: rgba(0, 0, 0, .5); */
+    color: var(--main-text-color);
 }
 
 .form-control:-moz-placeholder {
-    color: rgba(0, 0, 0, .5);
+    /* color: rgba(0, 0, 0, .5); */
+    color: var(--main-text-color);
 }
 
 .form-control::-moz-placeholder {
-    color: rgba(0, 0, 0, .5);
+    /* color: rgba(0, 0, 0, .5); */
+    color: var(--main-text-color);
 }
 
 .form-control:-ms-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    /* color: rgba(0, 0, 0, .5); */
+    color: var(--main-text-color);
 }
 
 .form-control::-ms-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    /* color: rgba(0, 0, 0, .5); */
+    color: var(--main-text-color);
 }
 
 .authorpage h1 {
@@ -622,7 +636,8 @@ ul.tags li a:hover {
 
 .authorpage .author-description {
     font-size: 1rem;
-    color: rgba(0, 0, 0, .6);
+    /* color: rgba(0, 0, 0, .6); */
+    color: var(--main-text-color);
 }
 
 .post-top-meta.authorpage .btn.follow {
@@ -653,7 +668,8 @@ ul.tags li a:hover {
 
 .sociallinks a {
     background: #666;
-    color: #fff;
+    /* color: #fff; */
+    color: var(--main-text-color);
     width: 22px;
     height: 22px;
     display: inline-block;
@@ -894,3 +910,38 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+html, html[data-theme="light"] {
+	--link-color: rgb(0, 112, 201);
+    --main-background-color: hsl(0, 0%, 100%);
+    --main-text-color: hsl(0, 0%, 20%);
+}
+
+html[data-theme="dark"] {
+	--link-color: rgb( 100, 210, 255);
+	--main-background-color: hsl(0, 0%, 20%);
+    --main-text-color: hsl(0, 0%, 85%); 
+}
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+        --link-color: rgb( 100, 210, 255);
+    	--main-background-color: hsl(0, 0%, 20%);
+    	--main-text-color: hsl(0, 0%, 85%); 
+    }
+
+    html[data-theme="light"] {
+		--link-color: rgb(0, 112, 201);
+    	--main-background-color: hsl(0, 0%, 100%);
+  	    --main-text-color: hsl(0, 0%, 20%);
+  } 
+}
+
+
+body {
+	background-color: var(--main-background-color);
+	color: var(--main-text-color);
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+	/* padding: 1em; */
+}
+
